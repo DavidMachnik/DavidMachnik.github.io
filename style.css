@@ -35,6 +35,15 @@ body {
   color: blue;
 }
 
+#web {
+  color: white;
+  text-decoration: none;
+}
+
+#web:hover {
+  color: orange;
+}
+
 .foto {
   float: right;
   opacity: 1.0;
@@ -64,8 +73,6 @@ body {
 }
 
 .links a {
-  color: white;
-  text-decoration: none;
   padding: 20px 0 0 10px;
 }
 
@@ -73,14 +80,16 @@ body {
   border-radius: 10px;
 }
 
-.link a:hover {
-  color: orange;
-}
-
 #home {
   float: right;
+  color: white;
+  text-decoration: none;
   padding: 8px 20px 5px 0;
   text-transform: uppercase;
+}
+
+#home:hover {
+  color: orange;
 }
 
 .kontakt #k2, .adresse #a2, #a4, #a6, .geburt #g2, #g4, .werdegang1 #w2, #w4,
@@ -99,8 +108,8 @@ body {
   vertical-align: top;
 }
 
-.content, .werdegang, .ausbildung, .zertifikat {
-  font-size: 20px;
+.content, .werdegang, .ausbildung, .zertifikat, .intro {
+  font-size: 17px;
   padding: 0 0 0 20px;
 }
 
@@ -109,7 +118,7 @@ body {
   margin: 0 auto;
 }
 
-ul {
+ul, li {
   list-style-type: none;
 }
 
