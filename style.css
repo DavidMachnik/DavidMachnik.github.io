@@ -84,7 +84,7 @@ body {
   float: right;
   color: white;
   text-decoration: none;
-  padding: 8px 20px 5px 0;
+  padding: 8px 25px 5px 0;
   text-transform: uppercase;
 }
 
@@ -109,7 +109,7 @@ body {
 }
 
 .content, .werdegang, .ausbildung, .zertifikat, .intro {
-  font-size: 17px;
+  font-size: 18px;
   padding: 0 0 0 20px;
 }
 
