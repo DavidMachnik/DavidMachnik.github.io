@@ -15,10 +15,23 @@ body {
   opacity: 0.8;
 }
 
+.foto {
+  float: right;
+  padding: 20px 220px 0 0;
+}
+
+.image img {
+  border-radius: 10px;
+  position: absolute;
+  z-index: 2;
+}
+
 .background, .text-background {
   background: black;
-  opacity: 0.8;
+  opacity: 0.7;
   padding: 5px 20px 5px 0;
+  position: relative;
+  z-index: 1;
 }
 
 #mitte {
@@ -42,16 +55,6 @@ body {
 
 #web:hover {
   color: orange;
-}
-
-.foto {
-  float: right;
-  opacity: 1.0;
-  padding: 20px 0 0 0;
-}
-
-.image img {
-  border-radius: 10px;
 }
 
 .box1, .box2 {
